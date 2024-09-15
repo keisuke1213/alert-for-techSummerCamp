@@ -1,8 +1,8 @@
 {
     "builds": [
-      { "src": "*.html", "use": "@vercel/static" }
+      { "src": "alert/*.html", "use": "@vercel/static" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
+      { "src": "/(.*)", "dest": "/alert/index.html" }
     ]
   }
